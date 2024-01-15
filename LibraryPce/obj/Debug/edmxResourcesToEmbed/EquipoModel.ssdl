@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'PCE.dbo.vwPCE' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="vwPCE">
+    <Key>
+      <PropertyRef Name="EquipoId" />
+      <PropertyRef Name="NombreEquipo" />
+      <PropertyRef Name="CantidadJugadores" />
+      <PropertyRef Name="NombreDT" />
+      <PropertyRef Name="TipoEquipo" />
+      <PropertyRef Name="CapitanEquipo" />
+      <PropertyRef Name="TieneSub21" />
+    </Key>
+    <Property Name="EquipoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreEquipo" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="CantidadJugadores" Type="int" Nullable="false" />
+    <Property Name="NombreDT" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="TipoEquipo" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="CapitanEquipo" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="TieneSub21" Type="bit" Nullable="false" />
+  </EntityType>
+  <Function Name="spEquipoDeleteById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EquipoId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="spEquipoSave" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NombreEquipo" Type="varchar" Mode="In" />
+    <Parameter Name="CantidadJugadores" Type="int" Mode="In" />
+    <Parameter Name="NombreDT" Type="varchar" Mode="In" />
+    <Parameter Name="TipoEquipo" Type="varchar" Mode="In" />
+    <Parameter Name="CapitanEquipo" Type="varchar" Mode="In" />
+    <Parameter Name="TieneSub21" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="spEquipoUpdateById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EquipoId" Type="int" Mode="In" />
+    <Parameter Name="NombreEquipo" Type="varchar" Mode="In" />
+    <Parameter Name="CantidadJugadores" Type="int" Mode="In" />
+    <Parameter Name="NombreDT" Type="varchar" Mode="In" />
+    <Parameter Name="TipoEquipo" Type="varchar" Mode="In" />
+    <Parameter Name="CapitanEquipo" Type="varchar" Mode="In" />
+    <Parameter Name="TieneSub21" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="spObtenerCantidadEquiposFemeninos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="spObtenerCantidadEquiposMasculinos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="PceModelStoreContainer">
+    <EntitySet Name="vwPCE" EntityType="Self.vwPCE" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vwPCE].[EquipoId] AS [EquipoId], 
+    [vwPCE].[NombreEquipo] AS [NombreEquipo], 
+    [vwPCE].[CantidadJugadores] AS [CantidadJugadores], 
+    [vwPCE].[NombreDT] AS [NombreDT], 
+    [vwPCE].[TipoEquipo] AS [TipoEquipo], 
+    [vwPCE].[CapitanEquipo] AS [CapitanEquipo], 
+    [vwPCE].[TieneSub21] AS [TieneSub21]
+    FROM [dbo].[vwPCE] AS [vwPCE]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,12 @@
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\LibraryPce\bin\Debug\LibraryPce.dll.config
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\LibraryPce\bin\Debug\LibraryPce.dll
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\LibraryPce\bin\Debug\LibraryPce.pdb
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\LibraryPce\bin\Debug\EntityFramework.dll
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\LibraryPce\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\LibraryPce\bin\Debug\EntityFramework.xml
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\LibraryPce\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\LibraryPce\obj\Debug\LibraryPce.csproj.AssemblyReference.cache
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\LibraryPce\obj\Debug\LibraryPce.csproj.CoreCompileInputs.cache
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\LibraryPce\obj\Debug\LibraryPce.csproj.CopyComplete
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\LibraryPce\obj\Debug\LibraryPce.dll
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\LibraryPce\obj\Debug\LibraryPce.pdb

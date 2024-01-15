@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfPce.vistas.AgregarEquipo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfPce.vistas"
+        xmlns:model="clr-namespace:NegocioPce;assembly=NegocioPce"
+        mc:Ignorable="d"
+        Title="AgregarEquipo" Height="450" Width="800">
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+    </Window.Resources>
+    <Grid>
+        <TextBox x:Name="tbNombreEquipo" HorizontalAlignment="Left" Margin="228,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" Text="{Binding NombreEquipo, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" ToolTip="{Binding ErrorCollection[NombreEquipo]}"/>
+        <TextBox x:Name="tbCantJugadores" HorizontalAlignment="Left" Margin="228,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" PreviewTextInput="CheckTextInput" Text="{Binding CantidadJugadores, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" ToolTip="{Binding ErrorCollection[CantidadJugadores]}"/>
+        <TextBox x:Name="tbNombreDt" HorizontalAlignment="Left" Margin="228,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" Text="{Binding NombreDT, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" ToolTip="{Binding ErrorCollection[NombreDT]}"/>
+        <ComboBox x:Name="cbTipoEquipo" HorizontalAlignment="Left" Margin="228,189,0,0" VerticalAlignment="Top" Width="192" Text="{Binding TipoEquipo, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" ToolTip="{Binding ErrorCollection[TipoEquipo]}">
+            <ComboBoxItem Content="FEMENINO"/>
+            <ComboBoxItem Content="MASCULINO"/>
+        </ComboBox>
+        <TextBox x:Name="tbCapitanEquipo" HorizontalAlignment="Left" Margin="228,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" Text="{Binding CapitanEquipo, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" ToolTip="{Binding ErrorCollection[CapitanEquipo]}"/>
+        <Button x:Name="btAgregarEquipo" Content="Agregar equipo" HorizontalAlignment="Left" Margin="199,311,0,0" VerticalAlignment="Top" Click="Button_Click" Width="125" IsEnabled="{Binding DatosValidos}" />
+        <CheckBox x:Name="cbTiene21" Content="Si" HorizontalAlignment="Left" Margin="309,270,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbNombreEquipo" Content="Nombre equipo:" HorizontalAlignment="Left" Margin="80,70,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbCantidadJugadores" Content="Cantidad de jugadores:" HorizontalAlignment="Left" Margin="80,110,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbNombreDt" Content="Nombre DT:" HorizontalAlignment="Left" Margin="80,151,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbTipoEquipo" Content="Tipo equipo:" HorizontalAlignment="Left" Margin="80,185,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbCapitanEquipo" Content="Capitan equipo:" HorizontalAlignment="Left" Margin="80,224,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbTieneSub21" Content="Tiene sub 21:" HorizontalAlignment="Left" Margin="80,265,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

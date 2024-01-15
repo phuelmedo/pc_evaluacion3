@@ -1,0 +1,15 @@
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\NegocioPce\bin\Debug\NegocioPce.dll.config
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\NegocioPce\bin\Debug\NegocioPce.dll
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\NegocioPce\bin\Debug\NegocioPce.pdb
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\NegocioPce\bin\Debug\EntityFramework.dll
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\NegocioPce\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\NegocioPce\bin\Debug\LibraryPce.dll
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\NegocioPce\bin\Debug\LibraryPce.pdb
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\NegocioPce\bin\Debug\LibraryPce.dll.config
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\NegocioPce\bin\Debug\EntityFramework.xml
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\NegocioPce\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\NegocioPce\obj\Debug\NegocioPce.csproj.AssemblyReference.cache
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\NegocioPce\obj\Debug\NegocioPce.csproj.CoreCompileInputs.cache
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\NegocioPce\obj\Debug\NegocioPce.csproj.CopyComplete
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\NegocioPce\obj\Debug\NegocioPce.dll
+C:\Users\phuel\Desktop\Iplacex\Bimestre 9\PROGRAMACIÓN DE COMPONENTES DE ESCRITORIO\Semana 4\Ev2\Ev2\ProyectoEquipo\NegocioPce\obj\Debug\NegocioPce.pdb

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PceModelStoreContainer" CdmEntityContainer="PCEEntity">
+    <EntitySetMapping Name="vwPCE">
+      <EntityTypeMapping TypeName="PceModel.vwPCE">
+        <MappingFragment StoreEntitySet="vwPCE">
+          <ScalarProperty Name="EquipoId" ColumnName="EquipoId" />
+          <ScalarProperty Name="NombreEquipo" ColumnName="NombreEquipo" />
+          <ScalarProperty Name="CantidadJugadores" ColumnName="CantidadJugadores" />
+          <ScalarProperty Name="NombreDT" ColumnName="NombreDT" />
+          <ScalarProperty Name="TipoEquipo" ColumnName="TipoEquipo" />
+          <ScalarProperty Name="CapitanEquipo" ColumnName="CapitanEquipo" />
+          <ScalarProperty Name="TieneSub21" ColumnName="TieneSub21" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="spEquipoDeleteById" FunctionName="PceModel.Store.spEquipoDeleteById" />
+    <FunctionImportMapping FunctionImportName="spEquipoSave" FunctionName="PceModel.Store.spEquipoSave" />
+    <FunctionImportMapping FunctionImportName="spEquipoUpdateById" FunctionName="PceModel.Store.spEquipoUpdateById" />
+    <FunctionImportMapping FunctionImportName="spObtenerCantidadEquiposFemeninos" FunctionName="PceModel.Store.spObtenerCantidadEquiposFemeninos" />
+    <FunctionImportMapping FunctionImportName="spObtenerCantidadEquiposMasculinos" FunctionName="PceModel.Store.spObtenerCantidadEquiposMasculinos" />
+  </EntityContainerMapping>
+</Mapping>

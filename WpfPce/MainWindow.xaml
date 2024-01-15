@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfPce.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfPce"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel LastChildFill="False">
+        <Menu x:Name="principal" DockPanel.Dock="Top" IsMainMenu="True" Height="20">
+            <MenuItem Header="Equipo">
+                <MenuItem Header="Agregar" x:Name="Agregar" Click="Agregar_Click"/>
+                <MenuItem Header="Listar todos" x:Name="Listar" Click="Listar_Click"/>
+            </MenuItem>
+            <MenuItem Header="Reportes" x:Name="optReportes" Click="ReportesEquipo_Click"/>
+        </Menu>
+        <DataGrid x:Name="lvEquipos" Width="Auto" Height="Auto" IsEnabled="False" DockPanel.Dock="Top"/>
+    </DockPanel>
+</Window>
